@@ -1,0 +1,30 @@
+<section id="form-details">
+
+  <form [formGroup]="registerForm" >
+
+      <h2 > CREATE YOUR ACCOUNT </h2>
+
+      <strong class="label">Full Name</strong>
+      <input type="text" name="" id="" placeholder="Enter your Full Name" formControlName="fullName" >
+
+      <strong class="label">Mobile Number</strong>
+      <input type="text" name="" id="" placeholder="Enter your Phone Number" formControlName="mobile" >
+
+
+      <strong class="label">E-mail Adress</strong>
+      <input type="email" name="" id="" placeholder="Enter your E-mail" formControlName="email" >
+
+      <strong class="label">Password</strong>
+      <input type="password" placeholder="Enter your password" formControlName="password" >
+
+      <a routerLink="/login" class="label">Already registred ? Click Here to Login</a>
+
+
+                <div>
+                  <button class="normal" (click)="addUser()">Login</button>
+                </div>
+
+  </form>
+
+
+</section>

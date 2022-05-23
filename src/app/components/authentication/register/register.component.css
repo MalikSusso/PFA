@@ -1,0 +1,42 @@
+.label {
+  font-size: 11px;
+    color: #465b52;
+    margin-bottom: 17px;
+}
+
+select {
+  width: 100%;
+  outline: none;
+  margin-bottom: 20px;
+  border: 1px solid #e1e1e1;
+  height: 45px;
+}
+
+.mr-7 {
+  margin-right: 7px;
+}
+
+
+
+button.normal {
+      font-weight: 600;
+      padding: 11px 21px;
+      color: #000;
+      background-color: #fff;
+      border-radius: 4px;
+      cursor: pointer;
+      border: none;
+      outline: none;
+      transition: 0.2s;
+}
+
+#form-details h2 {
+  text-align: center;
+}
+
+.link {
+  font-size: 11px;
+
+    color: #465b52;
+    margin-bottom: 17px;
+}

@@ -1,0 +1,91 @@
+{
+  "productList": [],
+  "promotions": [
+    {
+      "productName": "T shirt summer",
+      "category": "category B",
+      "size": "S - M - L - XL - XXL",
+      "price": "100",
+      "discount": "10%",
+      "colors": "blue",
+      "imageOne": "https://s2.qwant.com/thumbr/0x380/f/d/34f8deca797824a4012b85ae21ae5379eae976ea07784482d868534d5a420b/Surf-California-Summer-Time.jpg?u=https%3A%2F%2Fwww.hurtee.com%2Fwp-content%2Fuploads%2F2020%2F01%2FSurf-California-Summer-Time.jpg&q=0&b=1&p=0&a=0",
+      "imageTwo": "",
+      "imageThree": "",
+      "description": "",
+      "quantity": "30",
+      "id": 1
+    },
+    {
+      "productName": "T  summer",
+      "category": "category B",
+      "size": "S - M - L - XL - XXL",
+      "price": "100",
+      "discount": "10%",
+      "colors": "blue",
+      "imageOne": "https://s2.qwant.com/thumbr/0x380/f/d/34f8deca797824a4012b85ae21ae5379eae976ea07784482d868534d5a420b/Surf-California-Summer-Time.jpg?u=https%3A%2F%2Fwww.hurtee.com%2Fwp-content%2Fuploads%2F2020%2F01%2FSurf-California-Summer-Time.jpg&q=0&b=1&p=0&a=0",
+      "imageTwo": "",
+      "imageThree": "",
+      "description": "",
+      "quantity": "30",
+      "id": 3
+    },
+    {
+      "productName": "T-shir women",
+      "category": "category E",
+      "size": "S - M - L - XL - XXL",
+      "price": "90",
+      "discount": "5%",
+      "colors": "",
+      "imageOne": "https://s1.qwant.com/thumbr/0x380/a/e/37d8c61067ceb80a3d77328a305625c537b631d8d4cd249c24b99da48acebd/2019-Cool-Tee-Vespa-Girl-Riders-Motorcycle-T-Shirt-Women-Summer-Tops-Female-Causal-T-shirt-2.jpg?u=https%3A%2F%2Fapexcorsa.com.au%2Fwp-content%2Fuploads%2F2020%2F04%2F2019-Cool-Tee-Vespa-Girl-Riders-Motorcycle-T-Shirt-Women-Summer-Tops-Female-Causal-T-shirt-2.jpg&q=0&b=1&p=0&a=0",
+      "imageTwo": "",
+      "imageThree": "",
+      "description": "",
+      "quantity": "20",
+      "id": 2
+    }
+  ],
+  "profile": [
+    {
+      "fullName": "",
+      "mobile": "",
+      "email": "",
+      "password": "",
+      "id": 1
+    },
+    {
+      "fullName": "Malik",
+      "mobile": "55888999",
+      "email": "malik@mail.com",
+      "password": "123456789",
+      "id": 2
+    },
+    {
+      "fullName": "Meyssa",
+      "mobile": "55888999",
+      "email": "mail@mail.com",
+      "password": "123456",
+      "id": 3
+    },
+    {
+      "fullName": "Malik Soussou",
+      "mobile": "55298882",
+      "email": "malik@malik.com",
+      "password": "123456",
+      "id": 4
+    },
+    {
+      "fullName": "Missa",
+      "mobile": "55298882",
+      "email": "missa@missa.com",
+      "password": "youNeverKnow",
+      "id": 5
+    },
+    {
+      "fullName": "meyssa ",
+      "mobile": "554",
+      "email": "meyssa@meyssa.com",
+      "password": "1234",
+      "id": 6
+    }
+  ]
+}

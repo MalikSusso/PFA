@@ -1,0 +1,50 @@
+<section id="form-details" class="mat-dialog-container">
+
+  <form [formGroup]="promotionForm">
+
+      <h2 *ngIf="isDisplay" >ADD PROMOTIONN</h2>
+      <h2 *ngIf="!isDisplay" >UPDATE PROMOTIONN</h2>
+
+
+      <strong class="label">Product Name</strong>
+      <input type="text" name="" id="" placeholder="Enter your product Name" formControlName="productName">
+
+      <strong class="label">Product Category</strong>
+      <select type="text" formControlName="category">
+        <option [value]="category" *ngFor="let category of categoryList">{{category}}</option>
+      </select>
+
+      <strong class="label">Price</strong>
+      <input type="text" placeholder="Enter the product Price" formControlName="price">
+
+      <strong class="label">Discount</strong>
+      <input type="text" placeholder="Enter the product discount" formControlName="discount">
+
+      <strong class="label">Size</strong>
+      <input type="text"  value="S - M - L - XL - XXL" formControlName="size">
+
+      <strong class="label">Colors</strong>
+      <input type="text"  placeholder="Enter the product Colors" formControlName="colors">
+
+      <strong class="label">Images</strong>
+      <input type="text"  placeholder="Enter the Image 1 URL" formControlName="imageOne">
+      <input type="text"  placeholder="Enter the Image 2 URL" formControlName="imageTwo">
+      <input type="text"  placeholder="Enter the Image 3 URL" formControlName="imageThree">
+
+      <strong class="label">Quantity</strong>
+      <input type="text"  placeholder="Enter the Product Quantity" formControlName="quantity">
+
+      <strong class="label">Description</strong>
+      <textarea name="" id="" cols="30" rows="10"
+                placeholder="Enter the product Description"
+                formControlName="description"></textarea>
+
+      <div>
+      <button class="normal mr-7" *ngIf="isDisplay" (click)="addPromotion()">Ajouter Promotion</button>
+      <button class="normal mr-7" *ngIf="!isDisplay"(click)="updatePromotion()">Update Promotion</button>
+      <button class="normal" (click)="closeDialog()">Cancel</button>
+      </div>
+
+  </form>
+
+</section>

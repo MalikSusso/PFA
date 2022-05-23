@@ -1,0 +1,22 @@
+<section id="form-details">
+
+  <form [formGroup]="loginForm">
+
+      <h2 > LOGIN </h2>
+
+
+      <strong class="label">E-mail Adress</strong>
+      <input type="email" name="" id="" placeholder="Enter your E-mail" formControlName="email" >
+
+      <strong class="label">Password</strong>
+      <input type="password" placeholder="Enter your password" formControlName="password" >
+
+                <div>
+
+                  <button class="normal" (click)="login()">Login</button>
+
+                </div>
+
+  </form>
+
+</section>

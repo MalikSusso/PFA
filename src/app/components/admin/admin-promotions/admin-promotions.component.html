@@ -1,0 +1,36 @@
+<section id="feature" class="section-p1">
+  <div class="fe-box">
+      <img src="../../../assets/img/features/f1.png" alt="">
+      <h6 class="pointer"(click)="openPromotionDialog()">Add Promotion</h6>
+  </div>
+</section>
+
+<section id="cart" class="section-p1">
+  <table width="100%">
+      <thead>
+          <tr>
+              <td>ID</td>
+              <td>Image</td>
+              <td>Product Name</td>
+              <td>Price</td>
+              <td>Discount</td>
+              <td>Quantity</td>
+              <td>Remove</td>
+              <td>Update</td>
+          </tr>
+      </thead>
+
+      <tbody>
+              <tr *ngFor = "let promotion of promotions">
+                <td>{{promotion.id}}</td>
+              <td><img [src]="promotion.imageOne"></td>
+              <td>{{promotion.productName}}</td>
+              <td>{{promotion.price}} TND </td>
+              <td>{{promotion.discount}} TND </td>
+              <td>{{promotion.quantity}} </td>
+              <td><a (click)="delete(promotion)"><i class="far fa-times-circle delete"></i></a></td>
+              <td><a (click)="editPromotion(promotion)" ><i class="far fa-pencil update"></i></a></td>
+          </tr>
+      </tbody>
+  </table>
+</section>

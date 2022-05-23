@@ -1,0 +1,48 @@
+.label {
+  font-size: 11px;
+    color: #465b52;
+    margin-bottom: 17px;
+}
+
+select {
+  width: 100%;
+  outline: none;
+  margin-bottom: 20px;
+  border: 1px solid #e1e1e1;
+  height: 45px;
+}
+
+.mr-7 {
+  margin-right: 7px;
+}
+
+
+
+.mat-dialog-container {
+  display: block;
+  padding: 24px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  overflow: auto;
+  outline: 0;
+  width: 600px;
+  height: 557px;
+  min-height: inherit;
+  max-height: inherit;
+}
+
+.mat-dialog-container {
+  box-shadow: none;
+}
+
+#form-details {
+  display: block;
+  justify-content: space-between;
+  margin: 0px;
+  padding: 0px;
+  border: none;
+}
+
+#form-details form {
+  width: 95%;
+}

@@ -1,0 +1,36 @@
+<section id="feature" class="section-p1">
+  <div class="fe-box">
+      <img src="../../../assets/img/features/f1.png" alt="">
+      <h6 class="pointer"(click)="openProductDialog()">Add Product</h6>
+  </div>
+</section>
+
+<section id="cart" class="section-p1">
+  <table width="100%">
+      <thead>
+          <tr>
+              <td>ID</td>
+              <td>Image</td>
+              <td>Product Name</td>
+              <td>Price</td>
+              <td>Quantity</td>
+              <td>Remove</td>
+              <td>Update</td>
+          </tr>
+      </thead>
+
+      <tbody>
+              <tr *ngFor = "let product of products">
+                <td>{{product.id}}</td>
+              <td><img [src]="product.imageOne"></td>
+              <td>{{product.productName}}</td>
+              <td>{{product.price}} TND </td>
+              <td>{{product.quantity}} </td>
+              <td><a (click)="delete(product)"><i class="far fa-times-circle delete"></i></a></td>
+              <td><a (click)="editProduct(product)"><i class="far fa-pencil update"></i></a></td>
+          </tr>
+      </tbody>
+  </table>
+</section>
+
+

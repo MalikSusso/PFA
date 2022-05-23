@@ -1,0 +1,29 @@
+
+
+<section id="prodetails" class="section-p1"  *ngIf="product">
+  <div class="single-pro-image">
+      <img [src]="product.imageOne" width="100%" id="MainImg" alt="">
+
+
+  </div>
+
+  <div class="single-pro-details">
+      <h4> ( {{product.productName}} )</h4>
+      <h2>{{product.price}} TND</h2>
+      <input type="number" value="1">
+      <button class="normal" (click)="addToShopList()">Add To Cart</button>
+      <h4>Product Details</h4>
+      <span>Available Sizes : {{product.size}}</span>
+      <br>
+      <span> Category : {{product.category}}</span>
+      <br>
+      <span> Category : {{product.colors}}</span>
+      <br>
+      <span>{{product.description}}</span>
+  </div>
+
+</section>
+
+
+
+
